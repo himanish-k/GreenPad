@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    
+    <RelativeLayout
+        android:layout_width="0dp"
+    	android:layout_height="wrap_content" 
+    	android:layout_weight="1"
+    	android:gravity="center_horizontal"
+    	>
+    	
+	    <TextView
+	        android:id="@+id/group_expanded_list_item_payee"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="18sp"
+	        android:paddingLeft="40dp"
+	        android:paddingTop="5dp"
+	        android:paddingBottom="5dp"
+	        android:text="@string/test"
+	        />
+	    
+	    <TextView
+	        android:id="@+id/group_expanded_list_item_payment"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:textSize="18sp"
+	        android:paddingRight="20dp"
+	        android:paddingTop="5dp"
+	        android:paddingBottom="5dp"
+	        android:text="@string/test"
+	        />
+    </RelativeLayout>
+    
+    <ImageButton 
+	    android:id="@+id/group_expanded_button_delete"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="right"
+	    android:padding="0dp"
+	    android:src="@drawable/ic_action_remove"
+	    android:contentDescription="Delete"
+	    />
+    
+</LinearLayout>
